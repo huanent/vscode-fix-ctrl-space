@@ -1,0 +1,23 @@
+{
+    "name": "fix-ctrl-space",
+    "displayName": "fix-ctrl-space",
+    "description": "fix ctrl+space in windows",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+alt+space",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+            }
+        ]
+    },
+    "publisher": "huanent",
+    "icon": "icon.png"
+}
