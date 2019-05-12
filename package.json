@@ -9,6 +9,10 @@
     "categories": [
         "Keymaps"
     ],
+    "repository": {
+        "url": "https://github.com/huanent/vsode-fix-ctrl-space",
+        "type": "github"
+    },
     "contributes": {
         "keybindings": [
             {
