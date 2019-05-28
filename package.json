@@ -10,7 +10,7 @@
         "Keymaps"
     ],
     "repository": {
-        "url": "https://github.com/huanent/vsode-fix-ctrl-space",
+        "url": "https://github.com/huanent/vscode-fix-ctrl-space",
         "type": "github"
     },
     "contributes": {
